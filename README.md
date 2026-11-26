@@ -42,4 +42,4 @@ MIT — see [LICENSE](LICENSE)
 
 ---
 
-Made by [VAEL](https://github.com/TRW-HUB)
+Made by [VAEL](https://github.com/Trwthh)
