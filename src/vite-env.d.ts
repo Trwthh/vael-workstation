@@ -63,6 +63,11 @@ declare global {
         onClear: (cb: () => void) => () => void
         onLinks: (cb: (data: { links: Array<{ url: string; title: string; domain: string; trust: number; tier: 'recommended' | 'alternative' | 'caution' }> }) => void) => () => void
       }
+      ai: {
+        status: () => Promise<{ connected: boolean; cliFound: boolean; cliVersion: string | null; model: string; error: string | null }>
+        check: () => Promise<{ connected: boolean; cliFound: boolean; cliVersion: string | null; model: string; error: string | null }>
+        onStatusUpdate: (cb: (data: { connected: boolean; cliFound: boolean; cliVersion: string | null; model: string; error: string | null }) => void) => () => void
+      }
       profile: {
         get: () => Promise<Record<string, string>>
         set: (key: string, value: string) => Promise<boolean>

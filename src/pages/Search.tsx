@@ -170,7 +170,7 @@ function readFileAsDataUrl(file: File): Promise<string> {
 }
 
 export default function Search() {
-  const setActiveSession = useAppStore(s => s.setActiveSession)
+
   const [query, setQuery] = useState('')
   const [category, setCategory] = useState<Category>('general')
   const [tabs, setTabs] = useState<BrowserTab[]>([])
