@@ -1,0 +1,16 @@
+node_modules/
+dist/
+dist-electron/
+release/
+*.exe
+*.blockmap
+*.db
+*.sqlite
+*.sqlite3
+.env
+.env.*
+*.log
+*.tsbuildinfo
+.vite/
+.claude/
+updates-site/.vercel/
