@@ -288,7 +288,7 @@ export default function BrowserPanel({ initialUrl, onClose, onHome, onNavigate, 
   return (
     <div className="flex flex-col h-full bg-bg-0 relative">
       {/* Toolbar */}
-      <div className="shrink-0 flex items-center gap-1.5 h-10 px-2 pr-[110px] bg-bg-1/60 backdrop-blur-md border-b border-white/[0.06]">
+      <div className="shrink-0 flex items-center gap-1.5 h-10 px-2 pr-[140px] bg-bg-1/60 backdrop-blur-md border-b border-white/[0.06]">
         <div className="flex items-center gap-0.5">
           {onHome && (
             <button onClick={onHome}

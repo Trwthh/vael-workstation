@@ -466,7 +466,7 @@ export default function Search() {
     <div className="h-full flex flex-col bg-bg-0">
       {/* Tab bar — only when browser tabs exist */}
       {tabs.length > 0 && showBrowser && (
-        <div className="shrink-0 flex items-center h-9 bg-bg-1/60 border-b border-white/[0.06] pl-1 pr-[110px] gap-0 overflow-x-auto scrollbar-none drag-region">
+        <div className="shrink-0 flex items-center h-9 bg-bg-1/60 border-b border-white/[0.06] pl-1 pr-[140px] gap-0 overflow-x-auto scrollbar-none drag-region">
           <button onClick={goToResults}
             className="no-drag shrink-0 flex items-center gap-1.5 px-3 h-7 rounded-md mr-0.5 transition-colors text-[11px] text-fg-4 hover:text-fg-2 hover:bg-white/[0.04] active:scale-95">
             <ArrowLeft size={12} />
@@ -512,7 +512,7 @@ export default function Search() {
       {showResults && (
         <div className="flex-1 flex flex-col min-h-0">
           {/* Results toolbar */}
-          <div className="shrink-0 flex items-center gap-2 h-11 px-4 pr-[110px] bg-bg-1/50 border-b border-white/[0.06]">
+          <div className="shrink-0 flex items-center gap-2 h-11 px-4 pr-[140px] bg-bg-1/50 border-b border-white/[0.06]">
             <SearchIcon size={14} className="text-fg-3" />
             <span className="text-[13px] text-fg-1 truncate flex-1 font-medium">{result.query}</span>
 

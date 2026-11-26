@@ -1,8 +1,8 @@
-version: 0.1.3
+version: 0.1.4
 files:
-  - url: VAEL-Workstation-0.1.3-Setup.exe
-    sha512: fwmgDFzTmzPnr76kY3Mch2s7A8p0iUOGmfwLX6np91PF3b/xTU1m3OPm4LLl2fURA1nMcRwI8HLj/WWezYquRA==
-    size: 78784864
-path: VAEL-Workstation-0.1.3-Setup.exe
-sha512: fwmgDFzTmzPnr76kY3Mch2s7A8p0iUOGmfwLX6np91PF3b/xTU1m3OPm4LLl2fURA1nMcRwI8HLj/WWezYquRA==
-releaseDate: '2026-11-26T01:27:20.014Z'
+  - url: VAEL-Workstation-0.1.4-Setup.exe
+    sha512: Zs4UjWdARiWvbxUCHMGB7+/Id7S9dTMsivJrIrsQbGBWXykfnGVUpQvPE2NAo4IRKiJoVaUWMiyramVN2XvSXg==
+    size: 78785765
+path: VAEL-Workstation-0.1.4-Setup.exe
+sha512: Zs4UjWdARiWvbxUCHMGB7+/Id7S9dTMsivJrIrsQbGBWXykfnGVUpQvPE2NAo4IRKiJoVaUWMiyramVN2XvSXg==
+releaseDate: '2026-11-26T02:16:58.282Z'
