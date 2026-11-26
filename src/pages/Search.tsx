@@ -1,5 +1,5 @@
 import { useState, useCallback, useRef, useEffect } from 'react'
-import { Search as SearchIcon, Loader2, Globe, Shield, Hash, Link2, FileText, X, Zap, Plus, ArrowLeft, ExternalLink, Eye, Send, StopCircle, Image, Paperclip, Clock, Gamepad2, HardDrive, Cpu, Archive, Bug, Package, MessageSquarePlus } from 'lucide-react'
+import { Search as SearchIcon, Loader2, Globe, Shield, Hash, Link2, FileText, X, Zap, Plus, ArrowLeft, ExternalLink, Eye, Send, StopCircle, Image, Paperclip, Clock, Gamepad2, HardDrive, Cpu, Archive, Bug, Package } from 'lucide-react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useAppStore } from '@/stores/app'
 import BrowserPanel from '@/components/browser/BrowserPanel'
